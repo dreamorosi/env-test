@@ -24,6 +24,7 @@ runs:
       uses: aws-powertools/actions/.github/actions/cached-node-modules@29979bc5339bf54f76a11ac36ff67701986bb0f0 # replace this
       with:
         nodeVersion: "24"
+        build: "false"
     - name: Run bump-n-go
       id: bump-version
       shell: bash
